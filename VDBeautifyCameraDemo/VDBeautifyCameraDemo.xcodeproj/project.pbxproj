@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		853C06BC1E4AE7A4009B205B /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06A41E4AE7A4009B205B /* MASCompositeConstraint.m */; };
+		853C06BD1E4AE7A4009B205B /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06A71E4AE7A4009B205B /* MASConstraint.m */; };
+		853C06BE1E4AE7A4009B205B /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06A91E4AE7A4009B205B /* MASConstraintMaker.m */; };
+		853C06BF1E4AE7A4009B205B /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06AB1E4AE7A4009B205B /* MASLayoutConstraint.m */; };
+		853C06C01E4AE7A4009B205B /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06AF1E4AE7A4009B205B /* MASViewAttribute.m */; };
+		853C06C11E4AE7A4009B205B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06B11E4AE7A4009B205B /* MASViewConstraint.m */; };
+		853C06C21E4AE7A4009B205B /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06B31E4AE7A4009B205B /* NSArray+MASAdditions.m */; };
+		853C06C31E4AE7A4009B205B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06B61E4AE7A4009B205B /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		853C06C41E4AE7A4009B205B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06B81E4AE7A4009B205B /* View+MASAdditions.m */; };
+		853C06C51E4AE7A4009B205B /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06BB1E4AE7A4009B205B /* ViewController+MASAdditions.m */; };
+		853C06C81E4B1181009B205B /* VDBeautifyCameraFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C06C71E4B1181009B205B /* VDBeautifyCameraFooter.m */; };
 		85491FDD1E49CA160022D632 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85491FDC1E49CA160022D632 /* main.m */; };
 		85491FE01E49CA160022D632 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85491FDF1E49CA160022D632 /* AppDelegate.m */; };
 		85491FE31E49CA160022D632 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85491FE21E49CA160022D632 /* ViewController.m */; };
@@ -14,9 +25,38 @@
 		85491FE81E49CA160022D632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85491FE71E49CA160022D632 /* Assets.xcassets */; };
 		85491FEB1E49CA160022D632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85491FE91E49CA160022D632 /* LaunchScreen.storyboard */; };
 		85491FF81E49CAD70022D632 /* VDBeautifyCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85491FF71E49CAD70022D632 /* VDBeautifyCameraManager.m */; };
+		857A801E1E4C1E3E00CD6D93 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 857A801B1E4C1E3E00CD6D93 /* UIImage+Extension.m */; };
+		857A801F1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 857A801D1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		853C06A31E4AE7A4009B205B /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		853C06A41E4AE7A4009B205B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		853C06A51E4AE7A4009B205B /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		853C06A61E4AE7A4009B205B /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		853C06A71E4AE7A4009B205B /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		853C06A81E4AE7A4009B205B /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		853C06A91E4AE7A4009B205B /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		853C06AA1E4AE7A4009B205B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		853C06AB1E4AE7A4009B205B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		853C06AC1E4AE7A4009B205B /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		853C06AD1E4AE7A4009B205B /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		853C06AE1E4AE7A4009B205B /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		853C06AF1E4AE7A4009B205B /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		853C06B01E4AE7A4009B205B /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		853C06B11E4AE7A4009B205B /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		853C06B21E4AE7A4009B205B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		853C06B31E4AE7A4009B205B /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		853C06B41E4AE7A4009B205B /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		853C06B51E4AE7A4009B205B /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		853C06B61E4AE7A4009B205B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		853C06B71E4AE7A4009B205B /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		853C06B81E4AE7A4009B205B /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		853C06B91E4AE7A4009B205B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		853C06BA1E4AE7A4009B205B /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		853C06BB1E4AE7A4009B205B /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		853C06C61E4B1181009B205B /* VDBeautifyCameraFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDBeautifyCameraFooter.h; sourceTree = "<group>"; };
+		853C06C71E4B1181009B205B /* VDBeautifyCameraFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDBeautifyCameraFooter.m; sourceTree = "<group>"; };
 		85491FD81E49CA160022D632 /* VDBeautifyCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDBeautifyCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85491FDC1E49CA160022D632 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85491FDE1E49CA160022D632 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +69,10 @@
 		85491FEC1E49CA160022D632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85491FF61E49CAD70022D632 /* VDBeautifyCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDBeautifyCameraManager.h; sourceTree = "<group>"; };
 		85491FF71E49CAD70022D632 /* VDBeautifyCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDBeautifyCameraManager.m; sourceTree = "<group>"; };
+		857A801A1E4C1E3E00CD6D93 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		857A801B1E4C1E3E00CD6D93 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		857A801C1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDCameraAndPhotoTool.h; sourceTree = "<group>"; };
+		857A801D1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDCameraAndPhotoTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +86,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		853C06A21E4AE7A4009B205B /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				853C06A31E4AE7A4009B205B /* MASCompositeConstraint.h */,
+				853C06A41E4AE7A4009B205B /* MASCompositeConstraint.m */,
+				853C06A51E4AE7A4009B205B /* MASConstraint+Private.h */,
+				853C06A61E4AE7A4009B205B /* MASConstraint.h */,
+				853C06A71E4AE7A4009B205B /* MASConstraint.m */,
+				853C06A81E4AE7A4009B205B /* MASConstraintMaker.h */,
+				853C06A91E4AE7A4009B205B /* MASConstraintMaker.m */,
+				853C06AA1E4AE7A4009B205B /* MASLayoutConstraint.h */,
+				853C06AB1E4AE7A4009B205B /* MASLayoutConstraint.m */,
+				853C06AC1E4AE7A4009B205B /* Masonry.h */,
+				853C06AD1E4AE7A4009B205B /* MASUtilities.h */,
+				853C06AE1E4AE7A4009B205B /* MASViewAttribute.h */,
+				853C06AF1E4AE7A4009B205B /* MASViewAttribute.m */,
+				853C06B01E4AE7A4009B205B /* MASViewConstraint.h */,
+				853C06B11E4AE7A4009B205B /* MASViewConstraint.m */,
+				853C06B21E4AE7A4009B205B /* NSArray+MASAdditions.h */,
+				853C06B31E4AE7A4009B205B /* NSArray+MASAdditions.m */,
+				853C06B41E4AE7A4009B205B /* NSArray+MASShorthandAdditions.h */,
+				853C06B51E4AE7A4009B205B /* NSLayoutConstraint+MASDebugAdditions.h */,
+				853C06B61E4AE7A4009B205B /* NSLayoutConstraint+MASDebugAdditions.m */,
+				853C06B71E4AE7A4009B205B /* View+MASAdditions.h */,
+				853C06B81E4AE7A4009B205B /* View+MASAdditions.m */,
+				853C06B91E4AE7A4009B205B /* View+MASShorthandAdditions.h */,
+				853C06BA1E4AE7A4009B205B /* ViewController+MASAdditions.h */,
+				853C06BB1E4AE7A4009B205B /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		85491FCF1E49CA160022D632 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +137,8 @@
 		85491FDA1E49CA160022D632 /* VDBeautifyCameraDemo */ = {
 			isa = PBXGroup;
 			children = (
+				857A80191E4C1E3E00CD6D93 /* VDCameraAndPhotoTool */,
+				853C06A21E4AE7A4009B205B /* Masonry */,
 				85491FF21E49CA220022D632 /* VDBeautifyCamera */,
 				85491FDE1E49CA160022D632 /* AppDelegate.h */,
 				85491FDF1E49CA160022D632 /* AppDelegate.m */,
@@ -88,8 +166,22 @@
 			children = (
 				85491FF61E49CAD70022D632 /* VDBeautifyCameraManager.h */,
 				85491FF71E49CAD70022D632 /* VDBeautifyCameraManager.m */,
+				853C06C61E4B1181009B205B /* VDBeautifyCameraFooter.h */,
+				853C06C71E4B1181009B205B /* VDBeautifyCameraFooter.m */,
 			);
 			name = VDBeautifyCamera;
+			sourceTree = "<group>";
+		};
+		857A80191E4C1E3E00CD6D93 /* VDCameraAndPhotoTool */ = {
+			isa = PBXGroup;
+			children = (
+				857A801A1E4C1E3E00CD6D93 /* UIImage+Extension.h */,
+				857A801B1E4C1E3E00CD6D93 /* UIImage+Extension.m */,
+				857A801C1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.h */,
+				857A801D1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.m */,
+			);
+			name = VDCameraAndPhotoTool;
+			path = Masonry/VDCameraAndPhotoTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +215,7 @@
 				TargetAttributes = {
 					85491FD71E49CA160022D632 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GVZ46GV38V;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -163,10 +256,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857A801F1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.m in Sources */,
+				853C06BE1E4AE7A4009B205B /* MASConstraintMaker.m in Sources */,
 				85491FE31E49CA160022D632 /* ViewController.m in Sources */,
 				85491FE01E49CA160022D632 /* AppDelegate.m in Sources */,
+				853C06BD1E4AE7A4009B205B /* MASConstraint.m in Sources */,
+				853C06C51E4AE7A4009B205B /* ViewController+MASAdditions.m in Sources */,
+				853C06BF1E4AE7A4009B205B /* MASLayoutConstraint.m in Sources */,
+				853C06C21E4AE7A4009B205B /* NSArray+MASAdditions.m in Sources */,
+				857A801E1E4C1E3E00CD6D93 /* UIImage+Extension.m in Sources */,
+				853C06C11E4AE7A4009B205B /* MASViewConstraint.m in Sources */,
+				853C06C01E4AE7A4009B205B /* MASViewAttribute.m in Sources */,
+				853C06C81E4B1181009B205B /* VDBeautifyCameraFooter.m in Sources */,
+				853C06C41E4AE7A4009B205B /* View+MASAdditions.m in Sources */,
 				85491FDD1E49CA160022D632 /* main.m in Sources */,
 				85491FF81E49CAD70022D632 /* VDBeautifyCameraManager.m in Sources */,
+				853C06BC1E4AE7A4009B205B /* MASCompositeConstraint.m in Sources */,
+				853C06C31E4AE7A4009B205B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +390,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVZ46GV38V;
 				INFOPLIST_FILE = VDBeautifyCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VD.VDBeautifyCameraDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,7 +403,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVZ46GV38V;
 				INFOPLIST_FILE = VDBeautifyCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VD.VDBeautifyCameraDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,6 +431,7 @@
 				85491FF11E49CA160022D632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

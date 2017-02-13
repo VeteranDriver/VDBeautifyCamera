@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "VDBeautifyCameraManager.h"
+
 
 @interface ViewController ()
+
+@property(nonatomic, strong) VDBeautifyCameraManager *beautifyCameraManager;
 
 @end
 
@@ -16,9 +20,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.beautifyCameraManager = [[VDBeautifyCameraManager alloc] init];
+    
 }
 
+
+- (IBAction)photoButtonDidClick:(id)sender {
+    
+    [self presentViewController:self.beautifyCameraManager animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
