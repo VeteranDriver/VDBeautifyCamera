@@ -28,7 +28,7 @@
 
 - (IBAction)photoButtonDidClick:(id)sender {
     
-    [self presentViewController:self.beautifyCameraManager animated:YES completion:nil];
+    [self.navigationController pushViewController:self.beautifyCameraManager animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,6 +14,10 @@
 #import "VDBeautifyCameraFooter.h"
 #import "VDCameraAndPhotoTool.h"
 
+#import "VDBeautifyPhotoView.h"
+
+#import "VDBeautifyPhotoViewController.h"
+
 #define kMainScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kMainScreenHeight [UIScreen mainScreen].bounds.size.height
 
@@ -22,6 +26,11 @@
 
 
 @interface VDBeautifyCameraManager ()<VDBeautifyCameraFooterDelegate>
+
+/**
+ 背景视图
+ */
+@property(nonatomic, strong) VDBeautifyPhotoView *beautifyPhotoView;
 
 /**
  背景视图
@@ -152,9 +161,11 @@
     
     //初始化预览图层
     self.previewLayer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:self.session];
-    [self.previewLayer setVideoGravity:AVLayerVideoGravityResizeAspect];
+    [self.previewLayer setVideoGravity:AVLayerVideoGravityResizeAspectFill];
     NSLog(@"%f",kMainScreenWidth);
-    self.previewLayer.frame = CGRectMake(0, 0,kMainScreenWidth,kMainScreenHeight);
+    
+    self.previewLayer.frame = CGRectMake(0, 64,kMainScreenWidth,kMainScreenHeight - 64 - kFooterHeight);
+    
     self.backView.layer.masksToBounds = YES;
     [self.backView.layer addSublayer:self.previewLayer];
     
@@ -188,6 +199,12 @@
             
             [weakSelf.footer updateImgView];
         }];
+        
+        VDBeautifyPhotoViewController *vc = [[VDBeautifyPhotoViewController alloc] init];
+        
+        vc.photo = [UIImage imageWithData:jpegData];
+        
+        [self.navigationController pushViewController:vc animated:YES];
         
     }];
 
@@ -231,5 +248,13 @@
     return _footer;
 }
 
+- (VDBeautifyPhotoView *)beautifyPhotoView {
+    
+    if (_beautifyPhotoView == nil) {
+        
+        _beautifyPhotoView = [[VDBeautifyPhotoView alloc] initWithFrame:self.view.bounds];
+    }
+    return self;
+}
 
 @end

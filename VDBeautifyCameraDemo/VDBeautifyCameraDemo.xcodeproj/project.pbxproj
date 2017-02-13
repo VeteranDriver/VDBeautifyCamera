@@ -25,8 +25,12 @@
 		85491FE81E49CA160022D632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85491FE71E49CA160022D632 /* Assets.xcassets */; };
 		85491FEB1E49CA160022D632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85491FE91E49CA160022D632 /* LaunchScreen.storyboard */; };
 		85491FF81E49CAD70022D632 /* VDBeautifyCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85491FF71E49CAD70022D632 /* VDBeautifyCameraManager.m */; };
+		8570E6C91E519B840086E95B /* VDFilterListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8570E6C81E519B840086E95B /* VDFilterListCell.m */; };
 		857A801E1E4C1E3E00CD6D93 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 857A801B1E4C1E3E00CD6D93 /* UIImage+Extension.m */; };
 		857A801F1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 857A801D1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.m */; };
+		85D709081E5158410086BF3B /* VDFilterChooseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D709071E5158410086BF3B /* VDFilterChooseTool.m */; };
+		85D7090B1E5164310086BF3B /* VDBeautifyPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D7090A1E5164310086BF3B /* VDBeautifyPhotoViewController.m */; };
+		85D7090E1E51659A0086BF3B /* VDBeautifyPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D7090D1E51659A0086BF3B /* VDBeautifyPhotoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,10 +73,18 @@
 		85491FEC1E49CA160022D632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85491FF61E49CAD70022D632 /* VDBeautifyCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDBeautifyCameraManager.h; sourceTree = "<group>"; };
 		85491FF71E49CAD70022D632 /* VDBeautifyCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDBeautifyCameraManager.m; sourceTree = "<group>"; };
+		8570E6C71E519B840086E95B /* VDFilterListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDFilterListCell.h; sourceTree = "<group>"; };
+		8570E6C81E519B840086E95B /* VDFilterListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDFilterListCell.m; sourceTree = "<group>"; };
 		857A801A1E4C1E3E00CD6D93 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		857A801B1E4C1E3E00CD6D93 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		857A801C1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDCameraAndPhotoTool.h; sourceTree = "<group>"; };
 		857A801D1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDCameraAndPhotoTool.m; sourceTree = "<group>"; };
+		85D709061E5158410086BF3B /* VDFilterChooseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDFilterChooseTool.h; sourceTree = "<group>"; };
+		85D709071E5158410086BF3B /* VDFilterChooseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDFilterChooseTool.m; sourceTree = "<group>"; };
+		85D709091E5164310086BF3B /* VDBeautifyPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDBeautifyPhotoViewController.h; sourceTree = "<group>"; };
+		85D7090A1E5164310086BF3B /* VDBeautifyPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDBeautifyPhotoViewController.m; sourceTree = "<group>"; };
+		85D7090C1E51659A0086BF3B /* VDBeautifyPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDBeautifyPhotoView.h; sourceTree = "<group>"; };
+		85D7090D1E51659A0086BF3B /* VDBeautifyPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDBeautifyPhotoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +180,14 @@
 				85491FF71E49CAD70022D632 /* VDBeautifyCameraManager.m */,
 				853C06C61E4B1181009B205B /* VDBeautifyCameraFooter.h */,
 				853C06C71E4B1181009B205B /* VDBeautifyCameraFooter.m */,
+				85D709061E5158410086BF3B /* VDFilterChooseTool.h */,
+				85D709071E5158410086BF3B /* VDFilterChooseTool.m */,
+				8570E6C71E519B840086E95B /* VDFilterListCell.h */,
+				8570E6C81E519B840086E95B /* VDFilterListCell.m */,
+				85D709091E5164310086BF3B /* VDBeautifyPhotoViewController.h */,
+				85D7090A1E5164310086BF3B /* VDBeautifyPhotoViewController.m */,
+				85D7090C1E51659A0086BF3B /* VDBeautifyPhotoView.h */,
+				85D7090D1E51659A0086BF3B /* VDBeautifyPhotoView.m */,
 			);
 			name = VDBeautifyCamera;
 			sourceTree = "<group>";
@@ -258,14 +278,18 @@
 			files = (
 				857A801F1E4C1E3E00CD6D93 /* VDCameraAndPhotoTool.m in Sources */,
 				853C06BE1E4AE7A4009B205B /* MASConstraintMaker.m in Sources */,
+				85D709081E5158410086BF3B /* VDFilterChooseTool.m in Sources */,
 				85491FE31E49CA160022D632 /* ViewController.m in Sources */,
 				85491FE01E49CA160022D632 /* AppDelegate.m in Sources */,
 				853C06BD1E4AE7A4009B205B /* MASConstraint.m in Sources */,
+				8570E6C91E519B840086E95B /* VDFilterListCell.m in Sources */,
 				853C06C51E4AE7A4009B205B /* ViewController+MASAdditions.m in Sources */,
 				853C06BF1E4AE7A4009B205B /* MASLayoutConstraint.m in Sources */,
 				853C06C21E4AE7A4009B205B /* NSArray+MASAdditions.m in Sources */,
+				85D7090B1E5164310086BF3B /* VDBeautifyPhotoViewController.m in Sources */,
 				857A801E1E4C1E3E00CD6D93 /* UIImage+Extension.m in Sources */,
 				853C06C11E4AE7A4009B205B /* MASViewConstraint.m in Sources */,
+				85D7090E1E51659A0086BF3B /* VDBeautifyPhotoView.m in Sources */,
 				853C06C01E4AE7A4009B205B /* MASViewAttribute.m in Sources */,
 				853C06C81E4B1181009B205B /* VDBeautifyCameraFooter.m in Sources */,
 				853C06C41E4AE7A4009B205B /* View+MASAdditions.m in Sources */,

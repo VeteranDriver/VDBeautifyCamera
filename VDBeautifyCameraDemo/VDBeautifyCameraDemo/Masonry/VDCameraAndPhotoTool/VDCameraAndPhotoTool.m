@@ -18,7 +18,8 @@ typedef enum {
     cameraType,
     videoType
 }pickerType;
-static VDCameraAndPhotoTool *tool ;
+
+static VDCameraAndPhotoTool *tool;
 
 @interface VDCameraAndPhotoTool ()<UIActionSheetDelegate>
 
